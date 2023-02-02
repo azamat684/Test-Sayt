@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Forms</title>
+    <link rel="stylesheet" href="css/forms.css">
+</head>
+
+<body>
+    <div class="register">
+        <h1>Register Form</h1>
+        <form action="">
+            <label for="">First Name</label>
+            <input type="text" placeholder="Your first name">
+            <label for="">Last Name</label>
+            <input type="text" placeholder="Your last name">
+            <label for="">Age</label>
+            <input type="number" placeholder="Your age">
+            <label for="">Birth date</label>
+            <input type="date" placeholder="Your birth date">
+            <label for="inputTag" class="file-upload">
+                Select Image
+            </label>
+            <input id="inputTag" type="file"/>
+            <label for="">Contact</label>
+            <input type="text" placeholder="Contact email/phone">
+            <label for="">Select your country</label>
+            <select name="country" id="">
+                <option value="USA">United States of America</option>
+                <option value="Uzb">Uzbekistan</option>
+                <option value="reus">Russia</option>
+            </select>
+            <label for="">About yourself</label>
+            <textarea name="about" placeholder="Some text ..."></textarea>
+            <button type="submit" class="register-btn">Register</button>
+        </form>
+    </div>
+</body>
+
+</html>
