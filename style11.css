@@ -1,0 +1,50 @@
+*{
+    background-image: url('./sayt_uchun.jpg');
+    background-position: -600px;
+}
+
+
+h1{
+
+    color: white;
+}
+.register{
+    color: white;
+    width: 20%;
+    margin: 0 auto;
+    border: solid;
+    border-width: 5px;
+    padding: 120px 150px;
+    box-shadow: 3px 4px 15px red;
+    border-radius: 20px;
+}
+.register:hover{
+    background-color: rgb(226, 220, 220);
+    
+}
+input{
+   
+    color: rgb(255, 250, 250);
+    width: 100%;
+    padding: 20px 200px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 15px;
+}
+input:hover{
+    background-color: aqua;
+}
+.register h1{
+    text-align: center;
+
+}
+label{
+    width: 70%;
+    text-align: 50%;
+    font-size: 25px;
+}
+input{
+
+    border: solid;
+    border-radius: 50px;
+}
